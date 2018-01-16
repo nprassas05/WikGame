@@ -1,21 +1,4 @@
 <?php
-/* Connect to mySQL */
-/*function connect_db()
-{
-	// mydb.clu675rzclhs.us-west-2.rds.amazonaws.com
-	$server = "mydbinstance.clu675rzclhs.us-west-2.rds.amazonaws.com:3306";
-	$username = "admin";
-	$password = "pizza555";
-	$db = "myDB";
-	// Create connection
-	$conn = mysqli_connect($server, $username, $password, $db);
-	// Check connection
-	if (!$conn) {
-		echo("Connection failed");
-	} else {
-		return $conn;
-	}
-}*/
 
 class DB {
 	private $host = 'dbinstance.clu675rzclhs.us-west-2.rds.amazonaws.com'; //'localhost';
