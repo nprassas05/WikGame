@@ -19,9 +19,9 @@
 
 class DB {
 	private $host = 'dbinstance.clu675rzclhs.us-west-2.rds.amazonaws.com'; //'localhost';
-	private $username = 'nikoalanna'; // root
-	private $passwd = 'pizza999';
-	private $db = 'wikidb';
+	private $username = ''; // root
+	private $passwd = '';
+	private $db = '';
 	
 	// Constructor
     public function __construct() {
